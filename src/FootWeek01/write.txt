@@ -3,23 +3,34 @@
     Visual Studio 설치
     npm install create-react-app
     npx create-react-app [프로젝트 이름]
+
     .env 파일 정리와 git 설치 후 연동
-        gitBash 콘솔창
+        gitBash 콘솔창-----
         git config --global user.email "[실제 아이디]"
         git config --global user.name  "[쓸 이름]"
         git config --list   
-
-        터미널부분
-        git init
-        git remote add origin https://github.com/mohamohai/FootPrint.git   // 이미 진행중인 프로젝트거나 그러면 git pull로 파일 불러와서 하기
+        터미널부분-----
+        git init & git clone url [dirname] (clone는 세팅정보도 불러오기 때문에 따로 init, remote 안해도 된다.)
+        
+        (git pull origin master 프로젝트 데이터 가져오기// --allow-unrelated-historie)
+        git remote add origin https://github.com/mohamohai/FreeStudy.git  //연결  
         git add .
-        git status
+        git status 
         git commit -m "[내용]"
-        git push origin master
-    git pull origin master --allow-unrelated-histories
-
+        git push origin master   // master 조심
+        git checkout -b jonghyun
         연동 후 커밋가능
-    생성 후 npm start로 실행
+        생성 후 npm start로 실행
+
+    *vscode 관련 라이브러리
+        IntelliCode 코드 자동
+        Error Lens 에러잡기..?
+        colorize 색 보여주기
+        Polacode 코드 사진용
+        Auto Rename Tag 태그 자동 여닫
+        prettier 코드 줄자동
+        -----------
+        Output Colorizer 아웃풋 색 필요없을 거 같긴함
 
 2.
     npm install react-router-dom 라우터 돔 관련 라이브러리 설치
