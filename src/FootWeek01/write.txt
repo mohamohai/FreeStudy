@@ -8,8 +8,10 @@
         git config --global user.email "[실제 아이디]"
         git config --global user.name  "[쓸 이름]"
         git config --list   
+
+        터미널부분
         git init
-        git remote add origin https://github.com/mohamohai/FootPrint.git
+        git remote add origin https://github.com/mohamohai/FootPrint.git   // 이미 진행중인 프로젝트거나 그러면 git pull로 파일 불러와서 하기
         git add .
         git status
         git commit -m "[내용]"
