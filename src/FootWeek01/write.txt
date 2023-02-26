@@ -1,0 +1,14 @@
+1.  
+    node.js 
+    Visual Studio 설치
+    npm install create-react-app
+    npx create-react-app [프로젝트 이름]
+    .env 파일 정리와 git 설치 후 연동
+
+        git config --global user.email "aaa@gmail.com"
+        git config --global user.name  "name"
+        연동 후 커밋가능
+    생성 후 npm start로 실행
+
+2.
+    npm install react-router-dom 라우터 돔 관련 라이브러리 설치
