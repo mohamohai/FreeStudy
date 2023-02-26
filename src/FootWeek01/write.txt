@@ -4,12 +4,17 @@
     npm install create-react-app
     npx create-react-app [프로젝트 이름]
     .env 파일 정리와 git 설치 후 연동
-
-        git config --global user.email "aaa@gmail.com"
-        git config --global user.name  "name"
+        gitBash 콘솔창
+        git config --global user.email "[실제 아이디]"
+        git config --global user.name  "[쓸 이름]"
+        git config --list   
         git init
+        git remote add origin https://github.com/mohamohai/FootPrint.git
         git add .
-        git status 
+        git status
+        git commit -m "[내용]"
+        git push origin master
+    git pull origin master --allow-unrelated-histories
 
         연동 후 커밋가능
     생성 후 npm start로 실행
