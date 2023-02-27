@@ -4,7 +4,23 @@
 /node_modules
 /.pnp
 .pnp.js
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+.env
+.png
+.jpg
+.jpeg
+.mp4
+
+=======
+.jpg
+.png
+.jpeg
+.env
+>>>>>>> 7073def0a9a2cb986f57993021c3f26b42c9fadb
+>>>>>>> 7cfe727a1447169de42c940793a919eff7c142f8
 # testing
 /coverage
 
