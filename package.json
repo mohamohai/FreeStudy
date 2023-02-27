@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "live",
+=======
+  "name": "footprint",
+>>>>>>> 7073def0a9a2cb986f57993021c3f26b42c9fadb
   "version": "0.1.0",
   "private": true,
   "dependencies": {
