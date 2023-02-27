@@ -1,25 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import PageView from './live/PageView';
+import { BrowserRouter, Router, Route, Switch, Link,Routes } from 'react-router-dom';
 
-
-import { Link,Router,BrowserRouter } from 'react-router-dom';
+import PageView from './live/PageView';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <BrowserRouter>
+				<Routes>
+          <Route path='/' element={<FreeStudy />}></Route>
+
+          <Route path="/mainpage" element={<PageView />}></Route>
+					<Route path="/firelive" element={<PageView />}></Route>
+          <Route path='/firelive/:key1/:key2' element={<PageView />}></Route>
+
+					<Route path="*" element={<FreeStudy />}></Route>
+          
+				</Routes>
+			</BrowserRouter>
     </div>
   );
 }
